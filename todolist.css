@@ -1,0 +1,101 @@
+*{
+    margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.loginbox{
+    text-align: center;
+}
+.header{
+    text-align: center;
+    background-color:rgb(252, 228, 232);
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom:12px;
+    text-decoration-style: solid;
+}
+body{
+    background:url(https://as2.ftcdn.net/v2/jpg/03/95/09/75/1000_F_395097556_Hnye6nhh1NpZOHMs5WEsEBaPP5JbxkW4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+.content{
+    margin-top: 4%;
+}
+.formbox{
+    box-sizing: border-box;
+    border-radius: 6px;
+    box-shadow: 2px;
+    background-color: white;
+    width: 330px;
+    height: 300px;
+    position: absolute;
+   top: 30%;
+   left:40%
+}
+
+.formbox.hr{
+ background-color: black;
+ height: 1px;
+ width:10%;
+ position: center;
+}
+.logbtn{
+ margin-left: 50%;
+margin-top: 5px;
+ padding: 5px 20px;
+ background-color: rgb(247, 183, 194);
+ border-width: 1px;
+ border-radius: 4px ;
+ font-size: 13px;
+ cursor:pointer;
+}
+.logbtn:hover{
+    background-color: rgb(238, 99, 122);
+}
+.hlogin{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px 2px; 
+}
+#logo{
+    background-color:pink;
+    height:65px;
+    width:63px;
+    padding:1px;
+    margin-top: none;
+    cursor:pointer;
+   padding: 0;
+}
+.logelement {
+    text-decoration: none;
+    color:black;
+    float :left;  
+ 
+}
+.logelement:hover{
+    background-color: rgb(238, 99, 122);
+}
+ul li a{
+    margin: 21px 40px;
+    padding-bottom: 1px;
+}
+.donec{
+    color:black;
+    background-color: pink;
+    text-align: end;
+    height: 3cm;
+}
+#footer{
+    margin-top: 15cm;
+    color:solid black;
+    background-color: rgb(247, 183, 194); 
+   
+}
+.unorder{
+    margin-top: 15px;
+}
+.list{
+    margin-top: 20px;
+}

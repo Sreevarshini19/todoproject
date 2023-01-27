@@ -1,0 +1,137 @@
+*{
+    margin:0px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+body{
+    background:url(https://as2.ftcdn.net/v2/jpg/03/95/09/75/1000_F_395097556_Hnye6nhh1NpZOHMs5WEsEBaPP5JbxkW4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;}
+#headcolor{
+    background-color: rgb(252, 228, 232);
+}
+#header{
+    text-align: center;
+    font-size:xx-large;
+}
+.headerlist{
+    list-style: none;
+     display: flex;
+     flex-direction: row;
+}
+#logo{
+    background-color:pink;
+    height:65px;
+    width:63px;
+    padding:1px;
+    float:left;
+    margin-top: none;
+    cursor:pointer;
+   padding: 0;
+}
+#logout{
+    margin-left: 29cm;
+     padding: 5px 20px;
+     background-color: rgb(247, 183, 194);
+     border-width: 1px;
+     border-radius: 4px ;
+     font-size: 13px;
+}
+#logout:hover{
+    background-color: rgb(238, 99, 122);
+}
+#proverb{
+    margin-top: 0;
+    width:21cm;
+    height: 45px;
+    margin-top: 3px;
+    font-weight: bold;
+    background-color: pink;
+    font-size:larger;
+    margin-bottom: 5px;
+}
+.subheader{
+    list-style: none;
+    display:inline-block;
+    margin: 0px 11px;
+    margin-bottom: 2px;
+}
+.subheader:hover{
+    background-color: rgb(238, 99, 122);
+}
+#h3{
+text-align: center;
+margin-top: 20px;
+color:solid black
+}
+#input{
+    width:20cm;
+    height: 39px;
+   box-sizing: border-box;
+    margin-top: 35px;
+    margin-left: 6cm;
+}
+#enter{
+    text-decoration: none;
+    margin-left: 5px;
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+}
+#enterbtn{
+    height:35px;
+    margin-left: 5px;
+    background-color: pink;
+    cursor: pointer;
+}
+#enterbtn:hover{
+    background-color: rgb(238, 99, 122);
+}
+#nextbtn{
+    height:30px;
+    margin-left: 26cm;
+    background-color: pink;
+}
+#nextbtn:hover{
+    background-color: rgb(238, 99, 122);
+}
+#tasks{
+    margin-left: 6cm;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.tobedone{
+    color:black;
+    background-color: white;
+    margin-right:5cm ;
+    border-style:ridge;
+    height: 40px;
+    border-color: black;
+    border-width: 0.01px;
+    margin-left: 2cm;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+   
+}
+#btn{
+    height:30px;
+    margin-left: 29cm;
+    box-sizing: border-box;
+    background-color: pink;
+    cursor: pointer;
+    margin-top: -1cm;
+    display: flex;
+    flex-direction: row;
+    text-decoration-style: solid;
+}    
+.toshow{
+    height:30px;
+    margin-left: 29cm;
+    box-sizing: border-box;
+    background-color: pink;
+    cursor: pointer;
+    margin-top: -1cm;
+    display: flex;
+    flex-direction: row;
+    text-decoration-style: solid;
+}
